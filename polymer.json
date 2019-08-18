@@ -1,0 +1,10 @@
+{
+  "npm": true,
+  "moduleResolution": "node",
+  "entrypoint": "./index.html",
+  "lint": {
+    "rules": [
+      "polymer-3"
+    ]
+  }
+}
