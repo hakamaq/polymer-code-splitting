@@ -1,6 +1,10 @@
 {
   "name": "hello-world",
   "main": "src/index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp"
+  },
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@polymer/polymer": "^3.0.0",
@@ -14,14 +18,12 @@
     "gulp-export-html": "git://github.com/hakamaq/gulp-export-html.git",
     "gulp-inject": "^5.0.4",
     "gulp-sass": "^4.0.2",
-    "gulp-savefile": "^0.1.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "rollup": "^1.19.4",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.2",
-    "rollup-plugin-filesize": "^6.2.0",
     "rollup-plugin-html": "^0.2.1",
     "rollup-plugin-node-resolve": "^5.2.0"
   },
