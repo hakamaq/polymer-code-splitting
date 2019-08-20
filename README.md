@@ -1,16 +1,18 @@
-# \<hello-world\>
+# Polymer Code Splitting
 
+This repo uses gulp to split the HTML, CSS from JS. In the `src\components\helloworld` folder has three files, HTML, SCSS and JS which will convert the SCSS to CSS then export as template string in JS. This allows to import the template string in JS without any issues for polymer.
 
+## Getting Started
 
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) and npm (packaged with [Node.js](https://nodejs.org)) installed. Run `npm install` to install your element's dependencies, then run `polymer serve` to serve your element locally.
+1) Run `npm i` - This installs all the dependecies
+2) Run `npm  run build` - To run gulp initially.
+   Or run `npm start` - To run the build command and start browser sync to start watching the files.
 
 ## Viewing Your Element
 
-```
-$ polymer serve
-```
+You can view your polymer by runing `$ polymer serve`
+
+However you need to run `npm run build` to run gulp first.
 
 ## Running Tests
 
@@ -18,4 +20,9 @@ $ polymer serve
 $ polymer test
 ```
 
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+## License
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
